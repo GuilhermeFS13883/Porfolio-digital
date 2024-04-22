@@ -1,0 +1,250 @@
+*
+{margin: 20px;
+padding: 2px;
+box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Imagens/a9cd9b53dd7cfe1b7385834e969b660a.jpg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    gap: 800px;
+}
+header h1{
+    color: white;
+}
+header img{
+    border-radius: 20%;
+    position: relative;
+    box-shadow: 0 0 30px #00cc00;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+header img:hover{
+    box-shadow: 0 0 30px #00cc00,
+                0 0 60px #00cc00,
+                0 0 120px #00cc00;
+}
+#texto{
+    color: white;
+}
+
+
+#estudo h1{
+    justify-content: center;
+    display: flex;
+    color: white;
+}   
+#estudo h2{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5rem;
+    color: black;
+}
+a{
+    color: black;
+}
+#if{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+}
+#if:hover{
+    background: #00cc00;
+    color: black;
+    border: 5px solid white;
+    transform: scale(1.05);
+}
+#uvv{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+}
+#uvv:hover{
+    background: #00cc00;
+    color: black;
+    border: 5px solid white;
+    transform: scale(1.05);
+}
+#conhecimento {
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#saber{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 0.5rem;
+}
+#a{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#a h4{
+    color: black;
+}
+#a:hover{
+    background: #00cc00;
+    color: black;
+    border: 5px solid white;
+    transform: scale(1.05);
+}
+#b{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#b h4{
+    color: black;
+}
+#b:hover{
+    background: #00cc00;
+    color: black;
+    border: 5px solid white;
+    transform: scale(1.05);
+}
+#c{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#c h4{
+    color: black;
+}
+#c:hover{
+    background: #00cc00;
+    color: black;
+    border: 5px solid white;
+    transform: scale(1.05);
+}
+#d{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#d h4{
+    color: black;
+}
+#d:hover{
+    background: #00cc00;
+    color: black;
+    border: 5px solid white;
+    transform: scale(1.05);
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: green
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+    width: 50px;
+}
+#inputs{
+    display: flex;
+    padding: 2.5rem;
+    justify-content: center;
+    
+}
+#caixas{
+    position: relative;
+    right: 100px;
+    display: grid;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    
+}
+#caixas input{
+    background:black;
+    border-radius: 5%;
+    border: 2px solid green;
+    width: 100%;
+    padding: 7%;
+    margin: 2%;
+    color: white;
+}    
+#mensagem textarea{
+    background:black;
+    border-radius: 5%;
+    border: 2px solid green; 
+    color: white;
+    position: relative;
+    left: 100px;
+    width: 10cm;
+    height: 200px;
+    position: relative;
+}
+#mensagem input{
+    color: white;
+    background-color: black;
+    border: 2px solid green;
+    border-radius: 5%;
+    position: relative;
+    top: 80px;
+    right: 250px;
+    width: 209px;
+}
+#social{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 3.5rem;
+    transition: 0.3s ease-in-out;
+    
+}
+#gmail:hover{
+    transform: scale(1.2)translateY(-10px);
+    background-color: gainsboro;
+    color: black;
+    box-shadow: 0 0 25px #00cc00;
+    transition: 0.3s ease-in-out;
+}
+#gmail{
+    border: 2px solid #00cc00;
+    border-radius: 50%;
+}
+#insta{
+    border: 2px solid #00cc00;
+    border-radius: 50%;
+}
+#git{
+    border: 2px solid #00cc00;
+    border-radius: 50%;
+}
+#git:hover{
+    transform: scale(1.2)translateY(-10px);
+    background-color: gainsboro;
+    color: black;
+    box-shadow: 0 0 25px #00cc00;
+    transition: 0.3s ease-in-out;
+}
+#insta:hover{
+    transform: scale(1.2)translateY(-10px);
+    background-color: gainsboro;
+    color: black;
+    box-shadow: 0 0 25px #00cc00;
+    transition: 0.3s ease-in-out;
+}
